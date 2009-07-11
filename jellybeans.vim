@@ -309,11 +309,17 @@ call s:X("LineNr","605958","151515","none","Black","")
 call s:X("Comment","888888","","italic","Grey","")
 call s:X("Todo","808080","","bold","","")
 
-call s:X("StatusLine","f0f0f0","101010","italic","","")
-call s:X("StatusLineNC","a0a0a0","181818","italic","","")
+"from wombat:
+call s:X("StatusLine","f6f3e8","444444","italic","","")
+call s:X("StatusLineNC","857b6f","444444","italic","","")
+"call s:X("StatusLine","f0f0f0","101010","italic","","")
+"call s:X("StatusLineNC","a0a0a0","181818","italic","","")
 call s:X("VertSplit","181818","181818","italic","","")
 
-call s:X("Folded","a0a8b0","384048","italic","black","")
+
+"from wombat, with change
+call s:X("Folded","AAAAAA","333333","italic","","")
+"call s:X("Folded","a0a8b0","384048","italic","black","")
 call s:X("FoldColumn","a0a8b0","384048","","","")
 call s:X("SignColumn","a0a8b0","384048","","","")
 
@@ -323,16 +329,16 @@ call s:X("Constant","cf6a4c","","","Red","")
 call s:X("Special","799d6a","","","Green","")
 call s:X("Delimiter","668799","","","Grey","")
 
-call s:X("String","99ad6a","","","Green","")
+call s:X("String","99ad6a","080808","","Green","")
 call s:X("StringDelimiter","556633","","","DarkGreen","")
 
 call s:X("Identifier","c6b6ee","","","LightCyan","")
 call s:X("Structure","8fbfdc","","","LightCyan","")
 call s:X("Function","fad07a","","","Yellow","")
-call s:X("Statement","8197bf","","","DarkBlue","")
+call s:X("Statement","8197bf","","bold","DarkBlue","")
 call s:X("PreProc","8fbfdc","","","LightBlue","")
 
-hi link Operator Normal
+"hi link Operator Normal
 
 call s:X("Type","ffb964","","","Yellow","")
 call s:X("NonText","808080","151515","","","")
